@@ -1,0 +1,10 @@
+[09-Sep-2016 20:33:29 UTC] PHP Warning:  require_once(/home/bnexcl/public_html/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/request.php): failed to open stream: No such file or directory in /home/bnexcl/public_html/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/init.php on line 30
+[09-Sep-2016 20:33:29 UTC] PHP Stack trace:
+[09-Sep-2016 20:33:29 UTC] PHP   1. {main}() /home/bnexcl/public_html/wordfence-waf.php:0
+[09-Sep-2016 20:33:29 UTC] PHP   2. include_once() /home/bnexcl/public_html/wordfence-waf.php:6
+[09-Sep-2016 20:33:29 UTC] PHP   3. require_once() /home/bnexcl/public_html/wp-content/plugins/wordfence/waf/bootstrap.php:12
+[09-Sep-2016 20:33:29 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/bnexcl/public_html/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/lib/request.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/bnexcl/public_html/wp-content/plugins/wordfence/vendor/wordfence/wf-waf/src/init.php on line 30
+[09-Sep-2016 20:33:29 UTC] PHP Stack trace:
+[09-Sep-2016 20:33:29 UTC] PHP   1. {main}() /home/bnexcl/public_html/wordfence-waf.php:0
+[09-Sep-2016 20:33:29 UTC] PHP   2. include_once() /home/bnexcl/public_html/wordfence-waf.php:6
+[09-Sep-2016 20:33:29 UTC] PHP   3. require_once() /home/bnexcl/public_html/wp-content/plugins/wordfence/waf/bootstrap.php:12
